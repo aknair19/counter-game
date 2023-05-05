@@ -27,7 +27,7 @@ const App = () => {
           <button className="btn-1" onClick={() => {setTimer(10); setCount(0)}}>Start</button>
           <button className="btn-2"
             onClick={() => {
-              setCount(count + 1);
+              setCount(count + 1)
             }}
             disabled={timer === 0}
           >
